@@ -1,0 +1,26 @@
+{
+  "name": "the-dead-dont-die",
+  "version": "0.9.5-beta",
+  "description": "A 13K game for the js13kGames competition",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botwing/the-dead-dont-die.git"
+  },
+  "author": "Stas Stepanov <botwing@gmail.com> (https://github.com/botwing)",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/botwing/the-dead-dont-die/issues"
+  },
+  "homepage": "https://github.com/botwing/the-dead-dont-die#readme",
+  "scripts": {
+    "build": "node ./build.js",
+    "pack": "js13k-packer index.html dist --bundle=false -o the_dead_dont_die.zip"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.7",
+    "esbuild-plugin-kontra": "^1.0.0",
+    "js13k-packer": "^1.0.2",
+    "kontra": "^8.0.0"
+  }
+}
